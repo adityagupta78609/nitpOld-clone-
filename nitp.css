@@ -1,0 +1,410 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+/* 20.475 */
+ body{ 
+  margin-left: 150px;
+  margin-right: 150px;
+  min-width: 1228.8px;
+} 
+
+u {
+  color: rgb(22, 185, 172);
+}
+header {
+  background-color: #224e90;
+  color: white;
+  height: 100 px;
+  z-index: 10;
+  border:2px solid black;
+}
+.head {
+  float:right;
+  padding-top: 10px;
+  padding-bottom: 0px;
+}
+
+span {
+  color: white;
+}
+a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.35rem;
+}
+li {
+  display: inline;
+  list-style-type: none;
+  /* color: white; */
+  float: none;
+  padding-left: 2px;
+  margin: 0px;
+  text-decoration: none;
+  font-family: "Segoe UI Symbol", Verdana;
+  font-size: 28px;
+  padding-right: 9px;
+}
+
+/* ul{
+  visibility: h;
+} */
+marquee {
+  direction: "left";
+  color: red;
+  font-size: larger;
+  margin: 20px 0px 12px 0px;
+}
+section {
+  background-color: rgb(51, 9, 9);
+  font-size: larger;
+  /* display: inline-flex; */
+}
+
+.navbar {
+  display: inline-flex;
+  flex-direction: row;
+  padding-top: 0px;
+  padding-left: 1.10vw;
+  padding-bottom: 7px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  
+}
+.marq{
+  border:2px solid white;
+}
+/* .navbar nav ul li{
+  padding-right: 0.25vw;
+} */
+.box1 {
+  width: 359.2px;
+  height: 315.2px;
+  float: right;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  text-align: justify;
+  /* background-color: #fff; */
+  /* overflow-x: auto; */
+}
+table {
+  align-content: center;
+  text-align: center;
+  border: 3px groove rgb(97, 23, 23);
+  /* position: ; */
+  position: center;
+  /* margin-left: 512px; */
+}
+td,
+th {
+  border: 3px groove rgb(45, 224, 9);
+}
+
+.v11{
+  display:inline-block
+}
+.v12{
+  display: inline-block;
+}
+
+iframe
+{display: inline-block;
+  padding-left: 0.5vw;
+}
+.seats{
+  background-color: #edf0f6;
+}
+/* dropdown menu */
+.homesub,.adminsub,.aboutsub,.acadsub,.depsub,.facsub,.studsub,.idsub{
+  display:none;
+
+}
+
+.home:hover .homesub {
+  display: block;
+  position:absolute;
+  left:150px;
+}
+.homesub ul , .adminsub ul , .aboutsub ul , .acad ul , .dep ul , .fac ul , .stud ul , .id ul{
+display: inline-flex;
+flex-direction: column;
+}
+.homesub ul li {
+  background-color: #224e90;
+border-top: 2px solid white;
+/* text-align: left; */
+font-size: 20px;
+width: 150px;
+z-index:1;
+}
+.homesub ul li a ,  .adminsub ul li a , .aboutsub ul li a , .acadsub ul li a , .depsub ul li a , .facsub ul li a , .studsub ul li a , .idsub ul li a{
+font-size: 20px;
+}
+
+  /* home up */
+  
+  .admin:hover .adminsub {
+    display: block;
+    position:absolute;
+    left: 353px;
+  }
+
+  .adminsub ul li {
+    background-color: #224e90;
+  border-top: 2px solid white;
+  /* text-align: center; */
+  font-size: 20px;
+  width: 200px;
+  z-index:1;
+
+  }
+ 
+    /* admin up */
+ 
+    .about:hover .aboutsub {
+      display: block;
+      position:absolute;
+      left: 245px;
+    }
+    
+    .aboutsub ul li {
+      background-color: #224e90;
+    border-top: 2px solid white;
+    /* text-align: center; */
+    font-size: 20px;
+    width: 100px;
+    z-index:1;
+
+    }
+    
+    /* about up */
+  
+    .acad:hover .acadsub {
+      display: block;
+      position:absolute;
+      left: 512px;
+    }
+ 
+    .acadsub ul li {
+      background-color: #224e90;
+    border-top: 2px solid white;
+    /* text-align: center; */
+    font-size: 20px;
+    width: 280px;
+    z-index:1;
+
+    }
+   
+    /* academics up */
+    
+    .dep:hover .depsub {
+      display: block;
+      position:absolute;
+      left: 633px;
+    }
+ 
+    .depsub ul li {
+      background-color: #224e90;
+    border-top: 2px solid white;
+    /* text-align: center; */
+    font-size: 20px;
+    width: 250px;
+    z-index:1;
+
+    }
+    
+    /* department up */
+    
+    .fac:hover .facsub {
+      display: block;
+      position:absolute;
+      left: 775px;
+    }
+  
+    .facsub ul li {
+      background-color: #224e90;
+    border-top: 2px solid white;
+    /* text-align: center; */
+    font-size: 20px;
+    width: 200px;
+    z-index:1;
+
+    }
+ 
+    /* facilities up */
+    
+    .stud:hover .studsub {
+      display: block;
+      position:absolute;
+      left: 873px;
+    }
+  
+    .studsub ul li {
+      background-color: #224e90;
+    border-top: 2px solid white;
+    /* text-align: center; */
+    font-size: 20px;
+    width: 280px;
+    z-index:1;
+
+    }
+   
+    /* students up */
+    
+    .id:hover .idsub {
+      display: block;
+      position:absolute;
+      left: 1218px;
+    }
+  
+    .idsub ul li {
+      background-color: #224e90;
+    border-top: 2px solid white;
+    /* text-align: center; */
+    font-size: 20px;
+    width: 150px;
+    z-index:1;
+    }
+
+    /* hover pe item ka dikhna */
+/* 
+   .homesub ul  :hover , .adminsub ul  :hover, .aboutsub ul  :hover, .acad ul  :hover, .dep ul  :hover, .fac ul :hover, .stud ul  :hover, .id ul :hover{
+    background-color: black ;
+      /* background-image: url(//html/images/backfoot.png); 
+    border-right: 4px solid burlywood; 
+  }*/
+  nav ul li:hover{
+    background-color: black ;
+    border-bottom: 4px solid burlywood;
+
+  }
+  /* .home:hover , .admin:hover , .about:hover,.acad:hover,.dep:hover,.fac:hover,.stud:hover,.id:hover {
+      border-bottom: 3px solid ;
+
+    } */
+
+    .main{
+      display: flex;
+      align-content:space-around;
+      background-color: #f8fbef;
+     }
+
+    /* aside{
+      
+    } */
+    .slide{
+      /* float:right;
+      clear:right; */
+      margin:auto;
+      width:550px;
+      height:380px;
+    }
+    
+    .slide1{
+      position: absolute;
+      width:550px;
+      height:300px;
+      margin-top:40px;
+      /* background-color: #fff; */
+      margin-left:40px;
+      box-shadow: 0px 0px 19px gray;
+      animation-name: slideshow;
+      animation-duration: 30s;
+      animation-timing-function: cubic-bezier(.95,.02,.08,.96);
+      animation-iteration-count: infinite;
+      
+      /* animation-fill-mode: forwards; */
+    }
+    
+.grid {
+  /* float: right; */
+  width: 550px;
+  display:grid;
+  grid-template-columns: 285px 285px;
+  column-gap: 5px;
+  grid-template-rows: 32px 32px;
+  row-gap: 5px;
+  margin-top: 1vh;
+  margin:auto;
+  margin-bottom: 1vh;
+}
+.qlinks {
+  background-color: #224e90;
+  display: inline-block;
+  /* width: 19vw; */
+  text-align: center;
+  font-size: 15px;
+  padding: 6px 0px 6px 0px;
+}
+    @keyframes slideshow {
+      0%{background-image: url("images/10thConvo-1.jpg");
+      background-size: 100% 100%;}
+      10%{background-image: url("images/10thConvo-2.jpg");
+      background-size: 100% 100%;}
+      20%{background-image: url("images/10thConvo-3.jpg");
+      background-size: 100% 100%;}
+      30%{background-image: url("images/26Jan(2).jpeg");
+      background-size: 100% 100%;}
+      40%{background-image: url("images/ISRO(1).jpeg");
+      background-size: 100% 100%;}
+      50%{background-image: url("images/ISRO(2).jpeg");
+      background-size: 100% 100%;}
+      60%{background-image: url("images/NIRF_2021-3.jpeg");
+      background-size: 100% 100%;}
+      70%{background-image: url("images/NITTOP.jpg");
+      background-size: 100% 100%;}
+      80%{background-image: url("images/i1.jpeg");
+      background-size: 100% 100%;}
+      90%{background-image: url("images/i2.jpeg");
+      background-size: 100% 100%;}
+      100%{background-image: url("images/10thConvo-1.jpg");
+        background-size: 100% 100%;}
+    }
+
+    footer{
+      background-image: url("images/backfoot.png");
+    }
+    div.foot{
+      width:78.9vw;
+      display: grid;
+      grid-template-columns: auto auto auto auto ;
+    }
+    .foot1,.foot2,.foot3,.foot4{
+     color:white;
+     margin-left: 4vw;
+     margin-top: 4vh;
+     font-size: 1.35rem;
+    }
+    .foot1::first-line ,.foot2::first-line , .foot3::first-line , .foot4::first-line{
+      color:white;
+    }
+.foot5{
+  color:white;
+  font-size: 1.5rem;
+  font-style: normal;
+  margin-top: 25px;
+  padding-bottom: 25px;
+}
+    @media (min-width:1560px){
+      iframe{
+        width:40vw;
+        height:20vw;
+      }
+      .slide{
+        height:21vw;
+        width:40vw;
+      }
+      .slide1{
+        width:40vw;
+        height:18vw;
+      }
+      .grid{
+        width:40vw;
+        height:20vw;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto;
+      }
+      .qlinks{
+        font-size: larger;
+      }
+    }
